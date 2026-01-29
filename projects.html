@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ryan's Projects</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+        body {
+            background: linear-gradient(to bottom, #87CEEB, #F0F8FF);
+        }
+    </style>
+
+
+  </head>
+
+  <body>
+
+    <!-- nav bar code -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">Ryan's Website</a>
+
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+            </ul>
+            <div class="d-flex ms-3">
+                <img
+                src="https://www.thespotgym.com/wp-content/uploads/2024/09/the-spot-gym-primary-logo.png"
+                alt="Logo"
+                style="height:40px; width:auto;"
+                />
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- projects code -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">My Projects</h2>
+
+        <div class="accordion" id="projectsAccordion">
+
+            <!-- proj 1 -->
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="projectOneHeader">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projectOne">
+                Sewing patches onto pants!
+                </button>
+            </h2>
+            <div id="projectOne" class="accordion-collapse collapse show" data-bs-parent="#projectsAccordion">
+                <div class="accordion-body">
+                <div class="row">
+                    <div class="col-md-4">
+                    <img src="../resources/img/pants.jpg" class="img-fluid rounded" alt="Project 1 Image">
+                    </div>
+                    <div class="col-md-8">
+                    <h5>Project Description:</h5>
+                    <p>
+                        This was one of my first upcycling projects. I took the blue flower patterned material from a thrifted blouse
+                        and added it to the pockets of these white pants (which I had also thifted). I added these patches by hand sewing 
+                        and using a blanket stitch.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- proj 2 -->
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="projectTwoHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectTwo">
+                Projecting a V6 boulder
+                </button>
+            </h2>
+            <div id="projectTwo" class="accordion-collapse collapse" data-bs-parent="#projectsAccordion">
+                <div class="accordion-body">
+                <div class="row">
+                    <div class="col-md-4">
+                    <img src="../resources/img/climb.jpg" class="img-fluid rounded" alt="Project 2 Image">
+                    </div>
+                    <div class="col-md-8">
+                    <h5>Project Description:</h5>
+                    <p>
+                        Pictured to the left is a snapshot of the video of me sending my first V6 boulder! It took me 5 sessions 
+                        across multiple weeks and contained a mix of dynamic/jumpy moves along with a strength-intensive balancy finishing move.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- proj 3 -->
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="projectThreeHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectThree">
+                Home-Wall
+                </button>
+            </h2>
+            <div id="projectThree" class="accordion-collapse collapse" data-bs-parent="#projectsAccordion">
+                <div class="accordion-body">
+                <div class="row">
+                    <div class="col-md-4">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5b4544e485ede17941bc95fc/c0bccaff-65df-4667-a750-7066ac4670e1/climbing-holds-diy-rock-walls.jpg" class="img-fluid rounded" alt="Project 3 Image">
+                    </div>
+                    <div class="col-md-8">
+                    <h5>Project Description</h5>
+                    <p>
+                        A home-wall is a miniature climbing wall that's installed in someone's home, garage, backyard, or a shed. 
+                        They're generally used for training when you don't have time to go to the climbing gym or to go climb outdoors.
+                        This is a project that I'm currently in the midst of working on - although I haven't yet started construction I have
+                        obtained most of the holds I'll need for the wall and a large portion of the lumber. I also have made design schematics,
+                        however, before I start building the wall I want to get these schematics proof-checked by some form of structural engineer.
+                        The picture to the left is just a generic picture of a backyard homewall that has a similar construction style to the wall I aspire to build.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-dark text-center text-white py-3 mt-5">
+        <p class="mb-1">Find me on Instagram!</p>
+
+        <a href="https://www.instagram.com/ryanrenemans" target="_blank" class="text-white fs-3">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
